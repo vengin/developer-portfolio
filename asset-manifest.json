@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/developer-portfolio/static/css/main.4922820a.css",
-    "main.js": "/developer-portfolio/static/js/main.6b80debd.js",
+    "main.js": "/developer-portfolio/static/js/main.ea5f8b6c.js",
     "static/js/453.1cc257ae.chunk.js": "/developer-portfolio/static/js/453.1cc257ae.chunk.js",
     "static/media/placeholder.png": "/developer-portfolio/static/media/placeholder.3fcbbdcd05f3e458d129.png",
     "static/media/expOrange.svg": "/developer-portfolio/static/media/expOrange.c3e9732086bcc521548240f2f8db0dcf.svg",
@@ -12,7 +12,7 @@
     "static/media/expPink.svg": "/developer-portfolio/static/media/expPink.ac1de145943281e48101635d936e07a1.svg",
     "static/media/expPurple.svg": "/developer-portfolio/static/media/expPurple.c054e7936866e05307edbf7a6d27ddde.svg",
     "static/media/expYellow.svg": "/developer-portfolio/static/media/expYellow.cff6e7009ac8cce0c8806daff98c4c87.svg",
-    "static/media/Anton_Makarevich_Lead_FPGA_Embedded_Developer.pdf": "/developer-portfolio/static/media/Anton_Makarevich_Lead_FPGA_Embedded_Developer.ceabc7ff27973b1ae0f9.pdf",
+    "static/media/Anton_Makarevich_Lead_FPGA_Embedded_Developer.pdf": "/developer-portfolio/static/media/Anton_Makarevich_Lead_FPGA_Embedded_Developer.65f4008f7c9d863aa928.pdf",
     "static/media/profileImg.jpg": "/developer-portfolio/static/media/profileImg.d5a61b76d38fb54e9221.jpg",
     "static/media/BestermindRegular.ttf": "/developer-portfolio/static/media/BestermindRegular.e58a192233afb30a6a59.ttf",
     "static/media/contactsBlack.svg": "/developer-portfolio/static/media/contactsBlack.a7066a036cda6c3b92c5f544021b9530.svg",
@@ -137,11 +137,11 @@
     "static/media/vuetifyjs.svg": "/developer-portfolio/static/media/vuetifyjs.3848fcff351a0cbc94e75362594d2b25.svg",
     "static/media/bulma.svg": "/developer-portfolio/static/media/bulma.12ecb7941234000a2fe38a48cbce30da.svg",
     "main.4922820a.css.map": "/developer-portfolio/static/css/main.4922820a.css.map",
-    "main.6b80debd.js.map": "/developer-portfolio/static/js/main.6b80debd.js.map",
+    "main.ea5f8b6c.js.map": "/developer-portfolio/static/js/main.ea5f8b6c.js.map",
     "453.1cc257ae.chunk.js.map": "/developer-portfolio/static/js/453.1cc257ae.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4922820a.css",
-    "static/js/main.6b80debd.js"
+    "static/js/main.ea5f8b6c.js"
   ]
 }
