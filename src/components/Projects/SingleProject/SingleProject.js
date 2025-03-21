@@ -4,7 +4,7 @@ import Fade from 'react-reveal/Fade';
 import placeholder from '../../../assets/png/placeholder.png';
 import './SingleProject.css';
 
-function SingleProject({ id, name, desc, tags, demo, image, theme }) {
+function SingleProject({ id, name, desc, tags, demo, image, theme, imgWidth, imgHeight }) {
 
     return (
         <Fade bottom>
@@ -12,7 +12,9 @@ function SingleProject({ id, name, desc, tags, demo, image, theme }) {
                 <div
                     key={id}
                     className='singleProject'
-                    style={{ backgroundColor: theme.primary400 }}
+                    style={{ backgroundColor: theme.primary400,
+                             "--img-width": imgWidth,
+                             "--img-height": imgHeight }}
                 >
                     <div className='projectContent'>
                         <h2
@@ -21,7 +23,7 @@ function SingleProject({ id, name, desc, tags, demo, image, theme }) {
                         >
                             {name}
                         </h2>
-                        <img src={image ? image : placeholder} alt={name} />
+                        <img src={image ? image : placeholder} alt={name} style={{width: imgWidth, height: imgHeight}}/>
                     </div>
                     <p
                         className='project--desc'

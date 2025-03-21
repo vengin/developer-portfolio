@@ -99,7 +99,9 @@ function ProjectPage() {
                                 tags={project.tags}
                                 code={project.code}
                                 demo={project.demo}
-                                image={project.image} 
+                                image={project.image}
+                                imgWidth={project.imgWidth}
+                                imgHeight={project.imgHeight}
                             />
                         ))}
                     </Grid>
