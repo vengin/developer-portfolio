@@ -134,19 +134,3 @@ export const experienceData = [
     `,
   },
 ]
-
-// Lead FPGA/Embedded Developer, XCELER SYSTEMS
-// Jul 2016 - Aug 2019, 3 YEARS
-// �	Developed and verified in hardware FPGA and Embedded C design of highly reconfigurable FPGA/ASIC Synaptic Engine Generator, that integrates into standard compiler process, providing an average of x6 speedup, enabling customers an easy-to-use, low-power high-performance solutions with unique architecture.
-// �	Full FPGA SoC design cycle with various high/low-speed interfaces (Ethernet, USB, PCI, DisplayPort, Gigabit Transceivers, HDMI, SPI, I2C, UART, GPIO, etc.), significantly expanding product applications and market reach.
-// �	Implemented and added a custom DSP core into existing embedded product, securing 1 additional contract.
-
-// Senior Software/Firmware Developer, PSA
-// Jul 2010 - Jun 2016, 6 YEARS
-// �	Led numerous firmware/hardware designs for Xilinx/Altera FPGA based boards/devices, increasing company portfolio by 22%.
-// �	Firmware development for various microprocessors/microcontrollers (Microchip, TI, Atmel, NXP, Cypress, ADSP, ARM Cortex), leading to 6 successful new product launches and improving 8 existing products in multiple Consumer/Industrial areas.
-// �	Gained hands-on development experience with Linux/RTOS/Windows/DSP embedded systems in various real-world applications.
-// �	Participated as a core member in onsite project kick-offs, provided project estimates and documentation support, meeting the needs of current clients and securing new ones.
-
-// Software/Firmware Engineer, PELENG
-// Jul 2007 - Jun 2010, 3 YEARS

@@ -14,7 +14,7 @@ function Main() {
             <Navbar />
             <Landing />
             {/* <About /> */}
-            <Skills id="skills"/>
+            {/* <Skills id="skills"/> */}
             <Experience />
             <Projects />
             <Education />

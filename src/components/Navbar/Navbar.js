@@ -203,7 +203,7 @@ function Navbar() {
                             </NavLink>
                         </Fade> */}
 
-                        <Fade left>
+                        {/* <Fade left>
                             <NavLink
                                 to='/#Skills'
                                 smooth={true}
@@ -217,7 +217,7 @@ function Navbar() {
                                     </span>
                                 </div>
                             </NavLink>
-                        </Fade>
+                        </Fade> */}
 
                         <Fade left>
                             <NavLink

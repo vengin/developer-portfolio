@@ -167,7 +167,7 @@ function Landing() {
                             {headerData.resumePdf && (
                                 <a
                                     href={headerData.resumePdf}
-                                    download='resume'
+                                    download='Anton_Makarevich_Lead_FPGA_Embedded_Developer'
                                     target='_blank'
                                     rel='noreferrer'
                                 >

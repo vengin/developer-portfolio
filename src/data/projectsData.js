@@ -4,7 +4,6 @@ export const projectsData = [
     projectName: 'KRIA Evaluation Kit (ECT-KRIA-EVK)',
     projectDesc: 'High-performance IoT development kit for edge computing, based on the AMD Kria SOM (Zynq UltraScale+ MPSoC FPGA with quad-core 64-bit ARM processor).',
     tags: ['Zynq UltraScale+ MPSoC FPGA', 'Vivado', 'Vitis', 'BIST', 'Petalinux', 'KRIA SOM', 'Verilog', 'Embedded C', 'FSBL', 'PCIe'],
-    // Vivado, Vitis, Zynq UltraScale+ MPSoC FPGA, KRIA SOM, Verilog, Embedded C, Firmware development, BIST, Board Bring-up, FSBL, BSP, Petalinux, hardware verification, PCIe, Gigabit Ethernet, DisplayPort, HDMI.
     demo: 'https://github.com/vengin/portfolio/blob/main/2024-/KRIA%20Evaluation%20Kit%20(ECT-KRIA-EVK)/README.md',
     image: 'https://ectron.com/wp-content/uploads/2024/05/ECT-KRIA-EVK.png'
   },
@@ -37,15 +36,13 @@ export const projectsData = [
     projectName: 'Digital Controller Board (ECT-DGCB-3045)',
     projectDesc: 'Digital Controller Board (DGCB) - a Computer-On-Module (COM), whit multiple consumer/industrial applications (Embedded IoT, Signal Processing, Machine Control, Edge IIoT, Industrial Vision etc.)',
     tags: ['Zynq 7000 SoC', 'Vivado', 'Vitis', 'Embedded C', 'Verilog', 'BIST', 'FSBL', 'Petalinux'],
-//    Vivado, Vitis, Zynq 7000 SoC FPGA, Verilog, \'Embedded C\', Firmware development, BIST, Board Bring-up, FSBL, Petalinux.
     demo: 'https://github.com/vengin/portfolio/blob/main/2024-/Digital%20Controller%20Board%20(ECT-DGCB-3045)/README.md',
     image: 'https://raw.githubusercontent.com/vengin/portfolio/main/2024-/Digital%20Controller%20Board%20(ECT-DGCB-3045)/01DGCB%20Board%20Photo%20with%20Components%20Call-outs.jpg'
   },
   {
     id: 6,
     projectName: 'Digital Controller Base Board (ECT-DGCB-BB)',
-    projectDesc: 'Digital Controller Carrier Board (ECT-DGCB-BB) has a rich set of interfaces specifically meant for developing the IoT applications: Raspberry Pi HAT, Gigabit Ethernet, USB 2.0, Two Mini PCIe x1 (5Gb), LCD, SD Card, Digital Outputs, Analog&Digtal I/O.',
-//    is compatible with Ectron Digital Controller (ECT-DGCB) daughter board, as well as Raspberry Pi\\LoRaWAN boards.
+    projectDesc: 'Digital Controller Carrier Board (ECT-DGCB-BB) has a rich set of interfaces specifically meant for developing the IoT applications: Raspberry Pi HAT, Gigabit Ethernet, USB 2.0, Two Mini PCIe x1 (5Gb), LCD, SD Card, Digital Outputs, Analog&Digtal I/O. It is compatible with Ectron Digital Controller (ECT-DGCB) daughter board, as well as Raspberry Pi/LoRaWAN boards.',
     tags: ['Zynq 7000 SoC', 'Vivado', 'Vitis', 'Embedded C', 'Verilog', 'BIST', 'Petalinux', 'FSBL', 'Raspberry Pi', 'LoRaWAN', 'PCIe'],
     demo: 'https://github.com/vengin/portfolio/blob/main/2024-/Digital%20Controller%20Base%20Board%20(ECT-DGCB-BB)/README.md',
     image: 'https://raw.githubusercontent.com/vengin/portfolio/main/2024-/Digital%20Controller%20Base%20Board%20(ECT-DGCB-BB)/01ECT-DGCB-BB%20Board%20Photo%20with%20Tags.jpg'
@@ -53,8 +50,7 @@ export const projectsData = [
   {
     id: 7,
     projectName: 'Digital Controller Evaluation Kit (ECT-DGCB-EVK)',
-    projectDesc: 'Digital Controller Evaluation Kit (ECT-DGCB-EVK) has a variety of interfaces (Gigabit Ethernet, USB2.0, GPIB, ADC, DAC, Two Display Interfaces, Keypad, Digital I/O, SD Card), targeting such applications as IoT and Automation, Test and Measurement Systems, Edge Computing, etc.',
-//    projectDesc: \'Digital Controller Evaluation Kit (ECT-DGCB-EVK) can carry Ectron Digital Controller (ECT-DGCB) daughter board and Raspberry Pi\\LoRaWAN boards. It has a variety of interfaces (Gigabit Ethernet, USB2.0, GPIB, ADC, DAC, Two Display Interfaces, Keypad, Digital I/O, SD Card), targeting such applications as IoT and Automation, Test and Measurement Systems, Edge Computing, etc.\',
+    projectDesc: 'Digital Controller Evaluation Kit (ECT-DGCB-EVK) can carry Ectron Digital Controller (ECT-DGCB) daughter board and Raspberry Pi\\LoRaWAN boards. It has a variety of interfaces (Gigabit Ethernet, USB2.0, GPIB, ADC, DAC, Two Display Interfaces, Keypad, Digital I/O, SD Card), targeting such applications as IoT and Automation, Test and Measurement Systems, Edge Computing, etc.',
     tags: ['Zynq 7000 SoC', 'Vivado', 'Vitis', 'Embedded C', 'Verilog', 'BIST', 'Petalinux', 'FSBL', 'Raspberry Pi', 'LoRaWAN'],
     demo: 'https://github.com/vengin/portfolio/blob/main/2024-/Digital%20Controller%20Evaluation%20Kit%20(ECT-DGCB-EVK)/README.md',
     image: 'https://raw.githubusercontent.com/vengin/portfolio/main/2024-/Digital%20Controller%20Evaluation%20Kit%20(ECT-DGCB-EVK)/0ECT-DGCB-EVK%20Board%20with%20Tags.jpg'

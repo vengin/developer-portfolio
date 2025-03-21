@@ -1,7 +1,7 @@
 .singleProject {
     box-shadow: 4px 4px 8px rgba(36, 3, 3, 0.2);
     width: 510px;
-    height: 600px;
+    height: 550px;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -38,7 +38,7 @@
 }
 
 .singleProject:hover img{
-    opacity: 0;
+    opacity: 0.5;
 }
 
 .project--showcaseBtn {
