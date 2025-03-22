@@ -35,6 +35,7 @@
     width: var(--img-width);
     height: var(--img-height);
     transition: opacity 0.7s 0.3s;
+    margin: auto 0; /* Vertically center the image */
 }
 
 .singleProject:hover img{
