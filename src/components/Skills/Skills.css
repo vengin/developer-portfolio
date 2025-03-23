@@ -39,8 +39,7 @@
 
 .skill--box {
     background: #FAFAFA;
-    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.12);
-    border-radius: 10px;
+    border-radius: 10px; 
     width: 160px;
     height: 160px;
     margin: 1.3rem;
@@ -50,6 +49,7 @@
     justify-content: center;
     padding: 2rem 1rem;
     transition: 300ms ease-in-out;
+    pointer-events: none;
 }
 
 .skill--box:hover {
@@ -57,8 +57,8 @@
 }
 
 .skill--box > img {
-    height: 60px; /* Reduced size */
-    pointer-events: none;
+    height: 80px; /* Reduced size */
+    pointer-events: auto;
 }
 
 .skill--box h3 {

@@ -19,7 +19,7 @@
   'Git',
 
   'C++',
-  'Ubuntu',
+  // 'Ubuntu',
   'Markdown',
   'MySQL',
   'HTML',

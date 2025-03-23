@@ -1,4 +1,4 @@
-import React, { useContext, useState } from 'react';
+import React, { useContext, useState, useCallback } from 'react';
 import Marquee from "react-fast-marquee";
 
 import './Skills.css'
@@ -17,23 +17,17 @@ function Skills() {
         boxShadow: `0px 0px 30px ${theme.primary30}`
     }
 
-    const handleMouseEnter = () => {
-        setIsHovering(true);
-    };
-
-    const handleMouseLeave = () => {
-        setIsHovering(false);
-    };
-
     const rows = 3;
     const shift = Math.floor(skillsData.length / rows);
+
+    const handleSkillBoxHover = useCallback((hovering) => {
+        setIsHovering(hovering);
+    }, []);
 
     return (
         <div
             className="skills"
             style={{ backgroundColor: theme.secondary }}
-            onMouseEnter={handleMouseEnter}
-            onMouseLeave={handleMouseLeave}
         >
             <div className="skillsHeader">
                 <h2 style={{ color: theme.primary }}>Skills</h2>
@@ -44,7 +38,7 @@ function Skills() {
                     const shiftedSkills = [...skillsData.slice(start), ...skillsData.slice(0, start)];
 
                     return (
-                        <div className="skill--scroll" key={index}>
+                        <div className="skill--scroll" key={index} style={{ pointerEvents: 'none' }}>
                             <Marquee
                                 gradient={false}
                                 speed={80}
@@ -55,18 +49,51 @@ function Skills() {
                                 direction="left"
                             >
                                 {shiftedSkills.map((skill, id) => (
-                                    <div className="skill--box" key={id} style={skillBoxStyle}>
-                                        <img src={skillsImage(skill)} alt={skill} />
-                                        <h3 style={{ color: theme.tertiary }}>
-                                            {skill}
-                                        </h3>
-                                    </div>
+                                    <SkillBox
+                                        key={id}
+                                        skill={skill}
+                                        style={skillBoxStyle}
+                                        onSkillBoxHover={handleSkillBoxHover}
+                                    />
                                 ))}
                             </Marquee>
                         </div>
                     );
                 })}
             </div>
+        </div>
+    );
+}
+
+function SkillBox({ skill, style, onSkillBoxHover }) {
+    const { theme } = useContext(ThemeContext);
+    const [isHovering, setIsHovering] = useState(false);
+
+    const handleMouseEnter = () => {
+        setIsHovering(true);
+        onSkillBoxHover(true);
+    };
+
+    const handleMouseLeave = () => {
+        setIsHovering(false);
+        onSkillBoxHover(false);
+    };
+
+    return (
+        <div
+            className="skill--box"
+            style={{
+                ...style,
+                backgroundColor: isHovering ? 'rgb(113, 138, 146)' : style.backgroundColor,
+            }}
+            onMouseEnter={handleMouseEnter}
+            onMouseLeave={handleMouseLeave}
+        >
+            <img
+                src={skillsImage(skill)}
+                alt={skill}
+            />
+            <h3 style={{ color: theme.tertiary }}>{skill}</h3>
         </div>
     );
 }
