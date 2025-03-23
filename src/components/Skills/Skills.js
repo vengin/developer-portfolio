@@ -17,7 +17,7 @@ function Skills() {
         boxShadow: `0px 0px 30px ${theme.primary30}`
     }
 
-    const rows = 3;
+    const rows = 4;
     const shift = Math.floor(skillsData.length / rows);
 
     const handleSkillBoxHover = useCallback((hovering) => {

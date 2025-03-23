@@ -73,7 +73,7 @@ export const projectsData = [
     id: 8,
     projectName: 'Synaptic Engine Generation',
     projectDesc: 'FPGA and Embedded C design of highly reconfigurable FPGA/ASIC Synaptic Engine Generator, that integrates into standard compiler process, providing an average of x6 speedup, enabling customers an easy-to-use, low-power high-performance solutions with unique architecture.',
-    tags: ['Altera/Xilinx SoC FPGAs', 'Quartus', 'Vivado', 'VHDL', 'Embedded C', 'ActiveHDL', 'ModelSim', 'Matlab'],
+    tags: ['Altera/Xilinx SoC FPGAs', 'Quartus', 'Vivado', 'VHDL', 'Embedded C', 'Active-HDL', 'ModelSim', 'Matlab'],
     demo: 'https://github.com/vengin/portfolio/blob/main/2024-/Synaptic%20Engine%20Generator/README.md',
     image: 'https://raw.githubusercontent.com/vengin/portfolio/main/2024-/Synaptic%20Engine%20Generator/00Synaptic%20Engine%20Generator%20FPGA%20Block%20Diagram.png',
     imgWidth: '100%',
