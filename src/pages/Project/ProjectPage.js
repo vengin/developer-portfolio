@@ -1,7 +1,7 @@
-import React, { useContext, useState } from 'react'
+import React, { useContext, useState, useEffect } from 'react'
 import { Helmet } from 'react-helmet'
 import { Grid } from '@material-ui/core'
-import { Link } from 'react-router-dom'
+import { Link, useLocation } from 'react-router-dom'
 import { makeStyles } from '@material-ui/core/styles';
 import { AiOutlineHome } from "react-icons/ai";
 
@@ -13,13 +13,21 @@ import { headerData } from '../../data/headerData'
 
 function ProjectPage() {
 
-    const [search, setSearch] = useState('')
+    const [search, setSearch] = useState('');
     const { theme } = useContext(ThemeContext);
+    const location = useLocation();
+
+    useEffect(() => {
+        const skill = new URLSearchParams(location.search).get('skill');
+        if (skill) {
+            setSearch(skill);
+        }
+    }, [location]);
 
     const filteredArticles = projectsData.filter((project) => {
         const content = project.projectName + project.projectDesc + project.tags
         return content.toLowerCase().includes(search.toLowerCase())
-    })
+    });
 
     const useStyles = makeStyles((t) => ({
         search : {
@@ -85,7 +93,7 @@ function ProjectPage() {
             </div>
             <div className="projectPage-container">
                 <div className="projectPage-search">
-                   <input type="text" value={search} onChange={(e) => setSearch(e.target.value)} placeholder="Search project..." className={classes.search} />
+                   <input type="text" value={search} onChange={(e) => setSearch(e.target.value)} placeholder="Search project or tag..." className={classes.search} />
                </div>
                <div className="project-container">
                    <Grid className="project-grid" container direction="row" alignItems="center" justifyContent="center">

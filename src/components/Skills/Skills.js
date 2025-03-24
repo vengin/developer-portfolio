@@ -1,4 +1,5 @@
 import React, { useContext, useState, useCallback } from 'react';
+import { Link } from 'react-router-dom';
 import Marquee from "react-fast-marquee";
 
 import './Skills.css'
@@ -80,21 +81,23 @@ function SkillBox({ skill, style, onSkillBoxHover }) {
     };
 
     return (
-        <div
-            className="skill--box"
-            style={{
-                ...style,
-                backgroundColor: isHovering ? 'rgb(113, 138, 146)' : style.backgroundColor,
-            }}
-            onMouseEnter={handleMouseEnter}
-            onMouseLeave={handleMouseLeave}
-        >
-            <img
-                src={skillsImage(skill)}
-                alt={skill}
-            />
-            <h3 style={{ color: theme.tertiary }}>{skill}</h3>
-        </div>
+        <Link to={`/projects?skill=${skill}`} style={{ textDecoration: 'none' }}>
+            <div
+                className="skill--box"
+                style={{
+                    ...style,
+                    backgroundColor: isHovering ? 'rgb(113, 138, 146)' : style.backgroundColor,
+                }}
+                onMouseEnter={handleMouseEnter}
+                onMouseLeave={handleMouseLeave}
+            >
+                <img
+                    src={skillsImage(skill)}
+                    alt={skill}
+                />
+                <h3 style={{ color: theme.tertiary }}>{skill}</h3>
+            </div>
+        </Link>
     );
 }
 
