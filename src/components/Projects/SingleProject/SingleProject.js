@@ -41,9 +41,11 @@ function SingleProject({ id, name, desc, tags, demo, image, theme, imgWidth, img
                             color: theme.tertiary80,
                         }}
                     >
-                        {tags.map((tag, id) => (
-                            <span key={id}>{tag}</span>
-                        ))}
+                        <div className="tag-container">
+                            {tags.map((tag, id) => (
+                                <span key={id}>{tag}</span>
+                            ))}
+                        </div>
                     </div>
                 </div>
             </a>
