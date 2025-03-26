@@ -8,7 +8,7 @@ import expImgWhite from '../../assets/svg/experience/expImgWhite.svg'
 import expImgBlack from '../../assets/svg/experience/expImgBlack.svg'
 
 import './Experience.css'
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 
 function ExperienceCard({
   id,
@@ -19,19 +19,37 @@ function ExperienceCard({
   additionalInfo,
   url,
 }) {
-  const { theme } = useContext(ThemeContext)
-  const [showInfo, setShowInfo] = useState(false)
+  const { theme } = useContext(ThemeContext);
+  const [showInfo, setShowInfo] = useState(false);
+  const [cardHeight, setCardHeight] = useState('140px');
+
+  useEffect(() => {
+    const handleResize = () => {
+      if (window.innerWidth < 600) {
+        setCardHeight('440px');
+      } else if (window.innerWidth < 992) {
+        setCardHeight('320px');
+      } else {
+        setCardHeight('260px');
+      }
+    };
+
+    handleResize();
+    window.addEventListener('resize', handleResize);
+
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
 
   const useStyles = makeStyles((t) => ({
     experienceCard: {
       backgroundColor: theme.primary30,
       position: 'relative',
       overflow: 'hidden',
+      height: '150px',
       transition: 'all 0.3s ease',
-      height: '140px',
       '&:hover': {
         backgroundColor: theme.primary50,
-        height: '280px',
+        height: cardHeight,
       },
     },
     additionalInfo: {
