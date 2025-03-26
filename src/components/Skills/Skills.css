@@ -3,7 +3,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-    min-height: 70vh; /* Increased height */
+    min-height: 100vh;
     padding: 3rem 2rem 2rem 2rem;
 }
 
