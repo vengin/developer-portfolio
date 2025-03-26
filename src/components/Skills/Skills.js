@@ -27,6 +27,7 @@ function Skills() {
 
     return (
         <div
+            id="skills"
             className="skills"
             style={{ backgroundColor: theme.secondary }}
         >

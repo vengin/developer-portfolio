@@ -205,13 +205,15 @@ function Navbar() {
 
                         <Fade left>
                             <NavLink
-                                to='/#Skills'
+                                to='/#skills'
                                 smooth={true}
-                                spy='true'
-                                duration={2000}
+                                spy={true}
+                                duration={500}
+                                exact='true'
+                                offset={-70}
                             >
                                 <div className={classes.drawerItem}>
-                                    <FaUser className={classes.drawerIcon} />
+                                    <BsFillGearFill className={classes.drawerIcon} />
                                     <span className={classes.drawerLinks}>
                                         Skills
                                     </span>
