@@ -27,17 +27,11 @@ function ExperienceCard({
       backgroundColor: theme.primary30,
       position: 'relative',
       overflow: 'hidden',
-      transition: 'height 0.3s ease, background-color 0.3s ease',
-      height: '140px', // Default height
+      transition: 'all 0.3s ease',
+      height: '140px',
       '&:hover': {
         backgroundColor: theme.primary50,
-        height: '250px', // Increased height on hover
-      },
-      '& .experience-details': {
-        transition: 'opacity 0.3s ease',
-      },
-      '&:hover .experience-details': {
-        opacity: 0,
+        height: '280px',
       },
     },
     additionalInfo: {
@@ -50,26 +44,37 @@ function ExperienceCard({
       backgroundColor: '#A0A080',
       color: '#fff',
       opacity: 0,
-      transition: 'opacity 0.3s ease',
-      overflow: 'auto',
-      fontSize: '1.2rem',
+      pointerEvents: 'none',
+      transition: 'all 0.3s ease',
+      overflow: 'hidden',
+      fontSize: '1.1rem',
       display: 'flex',
       alignItems: 'center',
       justifyContent: 'center',
+      '& > div': {  
+        maxHeight: '100%',
+        overflow: 'auto',
+        paddingTop: '10px',
+        paddingBottom: '10px',
+      },
       ul: {
         listStyleType: 'disc',
         paddingLeft: '20px',
+        margin: '0',
       },
       li: {
         marginBottom: '5px',
       },
       a: {
-        color: '#0000ff',
-      },
-      '&:hover': {
-        opacity: 0.9,
+        color: theme.secondary,
+        textDecoration: 'underline',
       },
     },
+    showInfo: {
+      opacity: 0.9,
+      pointerEvents: 'auto',
+      overflow: 'auto',
+    }
   }))
 
   const classes = useStyles()
@@ -81,14 +86,14 @@ function ExperienceCard({
         target="_blank"
         rel="noopener noreferrer"
         key={id}
-        className={`experience-card ${classes.experienceCard} ${showInfo ? 'dimmed' : ''}`}
+        className={`experience-card ${classes.experienceCard}`}
         onMouseEnter={() => setShowInfo(true)}
         onMouseLeave={() => setShowInfo(false)}
       >
         <div className="expcard-img" style={{ backgroundColor: theme.primary }}>
           <img src={theme.type === 'light' ? expImgBlack : expImgWhite} alt="" />
         </div>
-        <div className="experience-details">
+        <div className="experience-details" style={{ opacity: showInfo ? 0 : 1, transition: 'opacity 0.3s ease' }}>
           <h6 style={{ color: theme.primary }}>
             {startYear} - {endYear}
           </h6>
@@ -96,9 +101,10 @@ function ExperienceCard({
           <h5 style={{ color: theme.tertiary80 }}>{company}</h5>
         </div>
         <div
-          className={classes.additionalInfo}
-          dangerouslySetInnerHTML={{ __html: additionalInfo }}
-        />
+          className={`${classes.additionalInfo} ${showInfo ? classes.showInfo : ''}`}
+        >
+          <div dangerouslySetInnerHTML={{ __html: additionalInfo }} />
+        </div>
       </a>
     </Fade>
   )
