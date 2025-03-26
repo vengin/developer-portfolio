@@ -21,12 +21,14 @@
   'KRIA K26',
   'VivadoHLS',
   'Pynq',
+  'Zybo',
   'Raspberry Pi',
   'Arduino',
   'ARM Cortex',
   'STM32',
   'MicroBlaze',
   'PicoBlaze',
+  'Nios',
 
   'C',
   'C++',
@@ -65,7 +67,7 @@
   'Microchip',
   'Texas Instruments',
   'Silicon Labs',
-  
+
   'Docker',
   'Git',
   'Markdown',
@@ -81,7 +83,7 @@
 
 // AVAILABLE SKILLS
 
-/* 
+/*
     HTML
     CSS
     JS

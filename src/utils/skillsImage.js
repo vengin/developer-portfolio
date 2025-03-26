@@ -12,10 +12,12 @@ import stm32 from '../assets/svg/skills/stm32.jpg'
 import cortex from '../assets/svg/skills/arm cortex.jpg'
 import microblaze from '../assets/svg/skills/microblaze.jpg'
 import picoblaze from '../assets/svg/skills/picoblaze.jpg'
+import nios from '../assets/svg/skills/nios.jpg'
 import firmware from '../assets/svg/skills/firmware.jpg'
 import rpi from '../assets/svg/skills/Raspberry Pi.png'
 import pynq from '../assets/svg/skills/pynq.jpg'
 import arduino from '../assets/svg/skills/arduino.jpg'
+import zybo from '../assets/svg/skills/zybo.jpg'
 import labview from '../assets/svg/skills/labview.jpg'
 import ni from '../assets/svg/skills/ni.png'
 import soc from '../assets/svg/skills/soc.gif'
@@ -164,6 +166,8 @@ export const skillsImage = (skill) => {
       return microblaze;
     case 'picoblaze':
       return picoblaze;
+    case 'nios':
+      return nios;
     case 'firmware':
       return firmware;
     case 'kria k26':
@@ -174,6 +178,8 @@ export const skillsImage = (skill) => {
       return soc;
     case 'zynq':
       return zynq;
+    case 'zybo':
+      return zybo;
     case 'stm32':
       return stm32;
     case 'arm cortex':
@@ -216,7 +222,7 @@ export const skillsImage = (skill) => {
       return tcpip;
     case 'industrial protocols':
       return protocols;
-    
+
     case 'vivado':
       return vivado;
     case 'vitis':
@@ -229,7 +235,7 @@ export const skillsImage = (skill) => {
       return xilinxsdk;
     case 'vivadohls':
       return vivadohls;
-      
+
     case 'labview':
       return labview;
     case 'ni':
@@ -242,7 +248,7 @@ export const skillsImage = (skill) => {
       return dsp;
     case 'schematics':
       return schematics;
-      
+
     case 'c':
       return c;
     case 'c++':
@@ -279,7 +285,7 @@ export const skillsImage = (skill) => {
       return ti;
     case 'silicon labs':
       return sillabs;
-  
+
     case 'numpy':
       return numpy;
     case 'opencv':
