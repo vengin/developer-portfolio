@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/developer-portfolio/static/css/main.05e7704b.css",
-    "main.js": "/developer-portfolio/static/js/main.62b07f41.js",
+    "main.js": "/developer-portfolio/static/js/main.280fef72.js",
     "static/js/453.1cc257ae.chunk.js": "/developer-portfolio/static/js/453.1cc257ae.chunk.js",
     "static/media/placeholder.png": "/developer-portfolio/static/media/placeholder.3fcbbdcd05f3e458d129.png",
     "static/media/expOrange.svg": "/developer-portfolio/static/media/expOrange.c3e9732086bcc521548240f2f8db0dcf.svg",
@@ -18,6 +18,7 @@
     "static/media/BestermindRegular.ttf": "/developer-portfolio/static/media/BestermindRegular.e58a192233afb30a6a59.ttf",
     "static/media/soc.gif": "/developer-portfolio/static/media/soc.a34326442469945024c0.gif",
     "static/media/schematics.jpg": "/developer-portfolio/static/media/schematics.3a2b6403861dec5835ee.jpg",
+    "static/media/ddr.png": "/developer-portfolio/static/media/ddr.9dfd1df5551f456cd0aa.png",
     "static/media/arm cortex.jpg": "/developer-portfolio/static/media/arm cortex.70d32453a3bde77307e2.jpg",
     "static/media/zybo.jpg": "/developer-portfolio/static/media/zybo.dd414ca4ebf42bdb35b4.jpg",
     "static/media/contactsBlack.svg": "/developer-portfolio/static/media/contactsBlack.a7066a036cda6c3b92c5f544021b9530.svg",
@@ -55,9 +56,9 @@
     "static/media/pynq.jpg": "/developer-portfolio/static/media/pynq.f88689d091f518e2eb66.jpg",
     "static/media/uart.png": "/developer-portfolio/static/media/uart.7b91a676d205b2004fb0.png",
     "static/media/tcp-ip.jpg": "/developer-portfolio/static/media/tcp-ip.a9caadc5b9b6831ec180.jpg",
+    "static/media/quartus.jpg": "/developer-portfolio/static/media/quartus.b6bba06e91b53c2ae91d.jpg",
     "static/media/arduino.jpg": "/developer-portfolio/static/media/arduino.890981cb97de876108dc.jpg",
     "static/media/ubuntu.png": "/developer-portfolio/static/media/ubuntu.eecea07bda5c54de8123.png",
-    "static/media/quartus.jpg": "/developer-portfolio/static/media/quartus.ba32967567f8bfe9332a.jpg",
     "static/media/microprocessor.jpg": "/developer-portfolio/static/media/microprocessor.a31dd06a6d2abf3fab5a.jpg",
     "static/media/labview.jpg": "/developer-portfolio/static/media/labview.7cf8efdc001b3a4f9740.jpg",
     "static/media/linux.jpg": "/developer-portfolio/static/media/linux.f0d79078dd8a819f1ace.jpg",
@@ -97,11 +98,11 @@
     "static/media/expImgWhite.svg": "/developer-portfolio/static/media/expImgWhite.b9923db466bf4544f6942bc67c5b4a7b.svg",
     "static/media/html.svg": "/developer-portfolio/static/media/html.75bdf0b057c088503944680032ea6347.svg",
     "main.05e7704b.css.map": "/developer-portfolio/static/css/main.05e7704b.css.map",
-    "main.62b07f41.js.map": "/developer-portfolio/static/js/main.62b07f41.js.map",
+    "main.280fef72.js.map": "/developer-portfolio/static/js/main.280fef72.js.map",
     "453.1cc257ae.chunk.js.map": "/developer-portfolio/static/js/453.1cc257ae.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.05e7704b.css",
-    "static/js/main.62b07f41.js"
+    "static/js/main.280fef72.js"
   ]
 }
