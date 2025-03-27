@@ -28,6 +28,7 @@ import ethernet from '../assets/svg/skills/ethernet.png'
 import pci from '../assets/svg/skills/PCI.png'
 import microsd from '../assets/svg/skills/microsd.jpg'
 import hdmi from '../assets/svg/skills/HDMI.png'
+import ddr from '../assets/svg/skills/ddr.png'
 import displayport from '../assets/svg/skills/DisplayPort.png'
 import spi from '../assets/svg/skills/spi.png'
 import i2c from '../assets/svg/skills/i2c.png'
@@ -204,6 +205,8 @@ export const skillsImage = (skill) => {
       return ethernet;
     case 'hdmi':
       return hdmi;
+    case 'ddr':
+      return ddr;
     case 'pci':
       return pci;
     case 'micro sd':

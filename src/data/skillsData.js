@@ -42,6 +42,7 @@
   'PCI',
   'DisplayPort',
   'HDMI',
+  'DDR',
   'Micro SD',
   'SPI',
   'I2C',
