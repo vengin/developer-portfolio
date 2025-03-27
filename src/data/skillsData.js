@@ -36,6 +36,7 @@
   'Matlab',
   'Tcl',
   'Assembler',
+  'Qt',
 
   'Ethernet',
   'USB',

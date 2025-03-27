@@ -69,6 +69,7 @@ import microchip from '../assets/svg/skills/microchip.jpg'
 import ti from '../assets/svg/skills/ti.jpg'
 import sillabs from '../assets/svg/skills/sillabs.jpg'
 
+import qt from '../assets/svg/skills/qt.png'
 import html from '../assets/svg/skills/html.svg'
 import mysql from '../assets/svg/skills/mysql.svg'
 import microsoftoffice from '../assets/svg/skills/microsoftoffice.svg'
@@ -280,6 +281,8 @@ export const skillsImage = (skill) => {
       return git;
     case 'docker':
       return docker;
+    case 'qt':
+      return qt;
     case 'html':
       return html;
     case 'mysql':
