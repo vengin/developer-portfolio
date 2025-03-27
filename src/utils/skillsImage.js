@@ -171,13 +171,15 @@ export const skillsImage = (skill) => {
       return nios;
     case 'firmware':
       return firmware;
-    case 'kria k26':
+    case 'kria':
       return kria26;
     case 'raspberry pi':
       return rpi;
     case 'soc':
       return soc;
     case 'zynq':
+    case 'zynq 7000':
+    case 'zynq 7000 soc':
       return zynq;
     case 'zybo':
       return zybo;
@@ -185,7 +187,10 @@ export const skillsImage = (skill) => {
       return stm32;
     case 'arm cortex':
       return cortex;
+    case 'zynq ultrascale':
     case 'zynq ultrascale+':
+    case 'zynq ultrascale+ fpga':
+    case 'zynq ultrascale+ mpsoc fpga':
       return zynqmp;
     case 'pynq':
       return pynq;
@@ -229,6 +234,7 @@ export const skillsImage = (skill) => {
     case 'vitis':
       return vitis;
     case 'quartus':
+    case 'altera quartus':
       return quartus;
     case 'xilinx ise':
       return xilinxise;
@@ -244,7 +250,7 @@ export const skillsImage = (skill) => {
       return ni;
     case 'matlab':
       return matlab;
-     case 'dsp':
+    case 'dsp':
     case 'digital signal processing':
       return dsp;
     case 'schematics':
@@ -257,6 +263,7 @@ export const skillsImage = (skill) => {
     case 'assembler':
       return assembler;
     case 'iar embedded workbench':
+    case 'iar':
       return iar;
     case 'active-hdl':
       return activehdl;

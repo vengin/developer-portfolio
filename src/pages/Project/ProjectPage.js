@@ -81,7 +81,9 @@ function ProjectPage() {
 
     const filteredArticles = projectsData.filter((project) => {
         const content = project.projectName + project.projectDesc + project.tags;
-        return content.toLowerCase().includes(search.toLowerCase());
+        const additionalTagsString = project.additional_tags ? project.additional_tags.join(" ") : "";
+        return (content.toLowerCase().includes(search.toLowerCase()) ||
+            additionalTagsString.toLowerCase().includes(search.toLowerCase()));
     });
 
     const handleClear = () => {
