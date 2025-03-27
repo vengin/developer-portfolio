@@ -62,6 +62,7 @@
   'Active-HDL',
   'ModelSim',
   'Linux',
+  'PetaLinux',
   'Ubuntu',
 
   'Microchip',
