@@ -75,7 +75,7 @@ function ProjectPage() {
     useEffect(() => {
         const skill = new URLSearchParams(location.search).get('skill');
         if (skill) {
-            setSearch(skill);
+            setSearch(skill.replace(/\s+/g, '++'));
         }
     }, [location]);
 
