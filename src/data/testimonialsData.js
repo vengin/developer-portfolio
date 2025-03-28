@@ -22,7 +22,7 @@ export const testimonialsData = [
         id: 2,
         name: 'Yaroslav Grebenschik',
         title: 'Director of BestSoft FLLC',
-        text: "Anton’s dedication, professionalism, and creative approach to his work from 2010 to 2016 have been truly commending. His contributions have significantly enhanced the company’s efficiency, earning him well-deserved recognition.",
+        text: "Anton received official recognition for his contributions from 2010 to 2016 for dedication, high professionalism, creative approach to problem-solving, and a significant personal impact on improving the company's efficiency.",
         image: yaroslav
     },
     {

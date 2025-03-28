@@ -288,7 +288,7 @@ function Contacts() {
                             <div className={classes.detailsIcon}>
                                 <FiAtSign />
                             </div>
-                            <p style={{ color: theme.tertiary }}>
+                            <p style={{ color: theme.tertiary, whiteSpace: 'nowrap' }}>
                                 {contactsData.email}
                             </p>
                         </a>
