@@ -46,7 +46,7 @@ export const projectsData = [
   {
     id: 5,
     projectName: 'Digital Controller Board (ECT-DGCB-3045)',
-    projectDesc: 'Digital Controller Board (DGCB) - a Computer-On-Module (COM), with multiple consumer/industrial applications (Embedded IoT, Signal Processing, Machine Control, Edge IIoT, Industrial Vision etc.). It is based on Zynq 7000 SoC powerful platform, offering a combination of FPGA and 1 GHz Dual core ARM processor. It is Azure IoT ready, adaptable to Google or Amazon Cloud and has a credit card sized form factor design.',
+    projectDesc: 'A Computer-On-Module (COM), with multiple consumer/industrial applications (Embedded IoT, Signal Processing, Machine Control, Edge IIoT, Industrial Vision etc.). Based on Zynq 7000 SoC powerful platform - a combination of FPGA and 1 GHz Dual core ARM processor. It is Azure IoT ready, adaptable to Google or Amazon Cloud and has a credit card sized form factor design.',
     tags: ['Zynq 7000 SoC', 'Vivado', 'Vitis', 'Embedded C', 'Verilog', 'BIST', 'FSBL', 'Petalinux'],
     additional_tags: ['FPGA', 'Firmware', 'Git', 'Schematics', 'SOC', 'Zynq', 'ARM Cortex', 'Ethernet', 'USB', 'SPI', 'I2C', 'UART', 'IoT', 'TCP/IP', 'Linux', 'PetaLinux', 'Ubuntu', 'Microprocessor', 'Microcontroller', 'VHDL', 'Verilog', 'Embedded C', 'C', 'TCL', 'IoT', 'Linux', 'Ubuntu', 'Petalinux', 'Texas Instruments', 'Silicon Labs', 'Microsoft Office', 'Micro SD', 'CPLD', 'DDR'],
     demo: 'https://github.com/vengin/portfolio/blob/main/2024-/Digital%20Controller%20Board%20(ECT-DGCB-3045)/README.md',

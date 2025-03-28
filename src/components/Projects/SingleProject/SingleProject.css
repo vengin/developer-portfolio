@@ -1,7 +1,7 @@
 .singleProject {
     box-shadow: 4px 4px 8px rgba(36, 3, 3, 0.2);
-    width: 510px;
-    height: 550px;
+    width: 440px;
+    height: 500px;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -63,10 +63,10 @@
 .singleProject .project--desc{
     position: absolute;
     width: 95%;
-    height: 200px;
+    height: 220px;
     left: 0;
     top: 0;
-    transform: translate(-110%,40%);
+    transform: translate(-110%,5%);
     padding: 20px;
     border-radius: 0 20px 20px 0;
     transition: transform 0.9s;
@@ -79,7 +79,7 @@
 }
   
 .singleProject:hover .project--desc{
-    transform: translate(-2%,40%);
+    transform: translate(-2%,5%);
 }
   
 .singleProject .project--lang{
