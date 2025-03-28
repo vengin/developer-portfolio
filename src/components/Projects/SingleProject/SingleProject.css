@@ -2,6 +2,7 @@
     box-shadow: 4px 4px 8px rgba(36, 3, 3, 0.2);
     width: 440px;
     height: 500px;
+    /* height: auto; */
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -11,6 +12,13 @@
     position: relative;
     cursor: pointer;
     overflow: hidden;
+}
+
+@media screen and (max-width: 702px) {
+    .singleProject {
+        width: 100%;
+        /* height: auto; */
+    }
 }
 
 .projectContent {

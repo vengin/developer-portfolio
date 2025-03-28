@@ -116,7 +116,7 @@ function ProjectPage() {
                     )}
                 </Box>
                 <div className="project-container">
-                    <Grid className="project-grid" container direction="row" alignItems="center" justifyContent="center">
+                    <div className="project-grid">
                         {filteredArticles.map(project => (
                             <SingleProject
                                 theme={theme}
@@ -132,7 +132,7 @@ function ProjectPage() {
                                 imgHeight={project.imgHeight}
                             />
                         ))}
-                    </Grid>
+                    </div>
                 </div>
             </div>
         </div>
