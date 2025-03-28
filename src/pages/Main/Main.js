@@ -20,7 +20,7 @@ function Main() {
             <Education />
             {/* <Achievement /> */}
             {/* <Services /> */}
-            {/* <Testimonials /> */}
+            <Testimonials />
             {/* <Blog /> */}
             <Contacts />
             <Footer />

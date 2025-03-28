@@ -5,51 +5,46 @@ import girl3 from '../assets/svg/testimonials/girl3.svg'
 import boy1 from '../assets/svg/testimonials/boy1.svg'
 import boy2 from '../assets/svg/testimonials/boy2.svg'
 import boy3 from '../assets/svg/testimonials/boy3.svg'
+import gautam from '../assets/svg/testimonials/Gautam Kavipurapu.jpg'
+import yaroslav from '../assets/svg/testimonials/Yaroslav Grebenschik.jpg'
 
 
 
 export const testimonialsData = [
     {
         id: 1,
-        name: 'Chandler Bing',
-        title: 'Transponster',
-        text: "Building my own portfolio could've never been easier than this. The only areas I'm good at are Math, Jokes and Dance.",
-        image: boy2
+        name: 'Gautam Kavipurapu',
+        title: 'CTO and Engineering at Ectron Corp',
+        text: "Anton is one of the best FPGA and Embedded Systems Engineers I have had the pleasure of managing. At Ectron he delivered above and beyond what was required and actively worked with other engineers in the team.",
+        image: gautam
     },
     {
         id: 2,
-        name: 'Monica Geller',
-        title: 'Head Chef',
-        text: "This is the only thing that I didn't have to spend time to sort out. It's tidy all by itself.",
-        image: girl2
+        name: 'Yaroslav Grebenshikov',
+        title: 'Director BestSoft, FLLC',
+        text: "Anton’s dedication, professionalism, and creative approach to his work from 2010 to 2016 have been truly commending. His contributions have significantly enhanced the company’s efficiency, earning him well-deserved recognition.",
+        image: yaroslav
     },
     {
         id: 3,
-        name: 'Phoebe Buffay',
-        title: 'Massuese',
-        text: "Heard of the song 'Smelly Cat!!' ? This website made it viral. Plus portfolio is the only thing that Ursula doesn't have :)",
-        image: girl1
-    },
+        name: 'Nermin ',
+        title: 'Upwork feedback',
+        text: "Anton is a real professional. He's a perfectionist, organised, fast, and is easy to communicate with.",
+        image: boy2
+      },
     {
         id: 4,
-        name: 'Joey Tribbiani',
-        title: 'Actor',
-        text: "Making my portfolio with this helped me get my role as 'Dr. Drake Ramoray' in 'Days Of Our Lives'. You guys are the best !",
+        name: 'Fernando ',
+        title: 'Upwork feedback',
+        text: "Anton is a competent and very qualified worker, he communicates clearly and fast. Totally recommended.",
         image: boy1
     },
     {
         id: 5,
-        name: 'Rachel Green',
-        title: 'Sales Executive',
-        text: 'Ralph Lauren was one of the best things that ever happened to me. My portfolio made that dream happen. I owe you guys.',
-        image: girl3
-    },
-    {
-        id: 6,
-        name: 'Ross Geller',
-        title: 'Paleontologist',
-        text: "Be it 'Rocks' or 'Bones', you need a website to display it. This is it. Great work guys !",
+        name: 'Olajide',
+        title: 'Upwork feedback',
+        text: 'Very helpful guy, he communicated well and always kept me up to date. I wish I had been in touch with Anton earlier for my previous projects. I didn\'t regret using this freelancer and I would hire again if needed.',
         image: boy3
-    }
+    },
 ]
 
