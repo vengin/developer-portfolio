@@ -75,7 +75,12 @@ function ProjectPage() {
     useEffect(() => {
         const skill = new URLSearchParams(location.search).get('skill');
         if (skill) {
-            setSearch(skill.replace(/\s+/g, '++'));
+            // For some reason 'C++' skill i srepalced with 'C  '. Use this workaround to fix this.
+            if (skill === 'C  ') {
+                setSearch(skill.replace(/\s+/g, '++'));  
+            } else {
+                setSearch(skill);
+            }
         }
     }, [location]);
 
