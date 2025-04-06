@@ -56,6 +56,9 @@ import c from '../assets/svg/skills/c.svg'
 import cplusplus from '../assets/svg/skills/cplusplus.svg'
 import assembler from '../assets/svg/skills/assembler.png'
 import iar from '../assets/svg/skills/IAR Embedded Workbench.png'
+import keil from '../assets/svg/skills/keil.jpg'
+import visual_studio from '../assets/svg/skills/visual-studio.png'
+import eclipse from '../assets/svg/skills/eclipse.png'
 import activehdl from '../assets/svg/skills/active-hdl.jpg'
 import modelsim from '../assets/svg/skills/modelsim.jpg'
 import git from '../assets/svg/skills/git.svg'
@@ -269,6 +272,13 @@ export const skillsImage = (skill) => {
     case 'iar embedded workbench':
     case 'iar':
       return iar;
+    case 'keil µvision':
+    case 'keil':
+      return keil;
+    case 'visual studio':
+      return visual_studio;
+    case 'eclipse':
+      return eclipse;
     case 'active-hdl':
       return activehdl;
     case 'modelsim':

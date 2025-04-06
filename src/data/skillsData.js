@@ -60,6 +60,9 @@
 //  'DSP',
 
   'IAR Embedded Workbench',
+  'Keil µVision',
+  'Visual Studio',
+  'Eclipse',
   'Active-HDL',
   'ModelSim',
   'Linux',

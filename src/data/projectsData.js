@@ -70,7 +70,7 @@ export const projectsData = [
     projectName: 'Digital Controller Evaluation Kit (ECT-DGCB-EVK)',
     projectDesc: 'Digital Controller Evaluation Kit (ECT-DGCB-EVK) can carry Ectron Digital Controller (ECT-DGCB) daughter board and Raspberry Pi\\LoRaWAN boards. It has a variety of interfaces (Gigabit Ethernet, USB2.0, GPIB, ADC, DAC, Two Display Interfaces, Keypad, Digital I/O, SD Card), targeting such applications as IoT and Automation, Test and Measurement Systems, Edge Computing, etc.',
     tags: ['Zynq 7000 SoC', 'Vivado', 'Vitis', 'Embedded C', 'Verilog', 'BIST', 'Petalinux', 'FSBL', 'Raspberry Pi', 'LoRaWAN'],
-    additional_tags: ['FPGA', 'Firmware', 'Git', 'Schematics', 'SOC', 'Zynq', 'ARM Cortex', 'Ethernet', 'USB', 'SPI', 'I2C', 'UART', 'IoT', 'TCP/IP', 'Linux', 'PetaLinux', 'Ubuntu', 'Microprocessor', 'Microcontroller', 'VHDL', 'Verilog', 'Embedded C', 'C', 'TCL', 'IoT', 'Linux', 'Ubuntu', 'Petalinux', 'Texas Instruments', 'Silicon Labs',, 'Microsoft Office', 'Arduino'],
+    additional_tags: ['FPGA', 'Firmware', 'Git', 'Schematics', 'SOC', 'Zynq', 'ARM Cortex', 'Ethernet', 'USB', 'SPI', 'I2C', 'UART', 'IoT', 'TCP/IP', 'Linux', 'PetaLinux', 'Ubuntu', 'Microprocessor', 'Microcontroller', 'VHDL', 'Verilog', 'Embedded C', 'C', 'TCL', 'IoT', 'Linux', 'Ubuntu', 'Petalinux', 'Texas Instruments', 'Silicon Labs', 'Microsoft Office', 'Arduino'],
     demo: 'https://github.com/vengin/portfolio/blob/main/2024-/Digital%20Controller%20Evaluation%20Kit%20(ECT-DGCB-EVK)/README.md',
     image: 'https://raw.githubusercontent.com/vengin/portfolio/main/2024-/Digital%20Controller%20Evaluation%20Kit%20(ECT-DGCB-EVK)/0ECT-DGCB-EVK%20Board%20with%20Tags.jpg',
     imgWidth: '100%',
