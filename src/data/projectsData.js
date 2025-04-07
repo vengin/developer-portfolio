@@ -34,12 +34,12 @@ export const projectsData = [
   },
   {
     id: 4,
-    projectName: 'Enhanced Ethernet Network Interface Card (EENIC)',
-    projectDesc: 'Enhanced Ethernet Network Interface Card (EENIC) is an FPGA board, enabling high-speed data transfer between network (Ethernet) and Host memory (PCIe).',
+    projectName: 'PCIe Ethernet NIC Adapter',
+    projectDesc: 'PCIe Ethernet NIC Adapter is an FPGA board, enabling high-speed data transfer between network (Ethernet) and Host memory (PCIe).',
     tags: ['Zynq 7000 SoC', 'Vivado', 'Vitis', 'Ebmedded C', 'PCIe', 'pcie xdma driver', 'Petalinux', 'Ethernet', 'TCP/IP', 'Linux'],
     additional_tags: ['FPGA', 'Firmware', 'Git', 'Schematics', 'JTAG', 'Python', 'Microsoft Office', 'Markdown', 'USB', 'ARM Cortex', 'Ethernet', 'TCP/IP', 'USB', 'SPI', 'I2C', 'UART', 'Visual Studio'],
-    demo: 'https://github.com/vengin/portfolio/blob/main/2024-/Enhanced%20Ethernet%20Network%20Interface%20Card%20(EENIC)/README.md',
-    image: 'https://raw.githubusercontent.com/vengin/portfolio/main/2024-/Enhanced%20Ethernet%20Network%20Interface%20Card%20(EENIC)/0EENIC%20Board%20Components%20Explained.png',
+    demo: 'https://github.com/vengin/portfolio/blob/main/2024-/PCIe%20Ethernet%20NIC%20Adapter/README.md',
+    image: 'https://raw.githubusercontent.com/vengin/portfolio/main/2024-/PCIe%20Ethernet%20NIC%20Adapter/0NIC%20Board%20Components%20Explained.png',
     imgWidth: '100%',
     imgHeight: '60%'
   },

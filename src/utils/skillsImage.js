@@ -66,7 +66,7 @@ import markdown from '../assets/svg/skills/markdown.png'
 import docker from '../assets/svg/skills/docker.svg'
 import ubuntu from '../assets/svg/skills/ubuntu.png'
 import linux from '../assets/svg/skills/linux.jpg'
-import petalinux from '../assets/svg/skills/petalinux.jpg'
+import petalinux from '../assets/svg/skills/petalinux.png'
 
 import microchip from '../assets/svg/skills/microchip.jpg'
 import ti from '../assets/svg/skills/ti.jpg'
