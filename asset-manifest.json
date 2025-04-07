@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/developer-portfolio/static/css/main.9fbf1fe5.css",
-    "main.js": "/developer-portfolio/static/js/main.5c7629cf.js",
+    "main.js": "/developer-portfolio/static/js/main.294b8149.js",
     "static/js/453.1cc257ae.chunk.js": "/developer-portfolio/static/js/453.1cc257ae.chunk.js",
     "static/media/placeholder.png": "/developer-portfolio/static/media/placeholder.3fcbbdcd05f3e458d129.png",
     "static/media/expOrange.svg": "/developer-portfolio/static/media/expOrange.c3e9732086bcc521548240f2f8db0dcf.svg",
@@ -81,9 +81,9 @@
     "static/media/docker.svg": "/developer-portfolio/static/media/docker.26ada6e465df47e1423793e7e41f43ba.svg",
     "static/media/cplusplus.svg": "/developer-portfolio/static/media/cplusplus.3b0d7340ed9a40a744043d23ffa5ebe1.svg",
     "static/media/microsoftoffice.svg": "/developer-portfolio/static/media/microsoftoffice.75a83b98c378ee32b3df5bb5e22e6f0c.svg",
+    "index.html": "/developer-portfolio/index.html",
     "static/media/matlab.svg": "/developer-portfolio/static/media/matlab.98ad4951a611278e7e5b21109b9798b3.svg",
     "static/media/slick.svg": "/developer-portfolio/static/media/slick.2630a3e3eab21c607e21.svg",
-    "index.html": "/developer-portfolio/index.html",
     "static/media/slick.eot": "/developer-portfolio/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/developer-portfolio/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/python.svg": "/developer-portfolio/static/media/python.0934792163d56e233fb5f42cc69d7ed1.svg",
@@ -98,11 +98,11 @@
     "static/media/expImgWhite.svg": "/developer-portfolio/static/media/expImgWhite.b9923db466bf4544f6942bc67c5b4a7b.svg",
     "static/media/html.svg": "/developer-portfolio/static/media/html.75bdf0b057c088503944680032ea6347.svg",
     "main.9fbf1fe5.css.map": "/developer-portfolio/static/css/main.9fbf1fe5.css.map",
-    "main.5c7629cf.js.map": "/developer-portfolio/static/js/main.5c7629cf.js.map",
+    "main.294b8149.js.map": "/developer-portfolio/static/js/main.294b8149.js.map",
     "453.1cc257ae.chunk.js.map": "/developer-portfolio/static/js/453.1cc257ae.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9fbf1fe5.css",
-    "static/js/main.5c7629cf.js"
+    "static/js/main.294b8149.js"
   ]
 }
