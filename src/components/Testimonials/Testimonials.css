@@ -58,9 +58,7 @@
     font-size: 4rem;
     position: absolute;
     z-index: 10;
-
-    transform: translateY(50%);
-
+    transform: translateY(0%);
     opacity: 0.5;
 }
 
@@ -142,7 +140,7 @@
 .review--content{
     margin: 0 auto;
     width: 90%;
-    height: 250px;
+    height: 330px;
     border-radius: 50px;
 
     box-sizing: border-box;
@@ -173,7 +171,7 @@
 }
 
 
-@media (max-width: 1300px) {
+@media (max-width: 1500px) {
 
     .testimonials {
         height: 100%;
@@ -195,7 +193,7 @@
       padding: 5px 5px; /* Reduce horizontal padding */
   }
   .review--content p{
-      font-size: 1.2rem;
+      font-size: 1.0rem;
       width: 100%;
   }
   .review--content h1{
@@ -211,7 +209,7 @@
 
 
 
-  @media (max-width: 1000px) {
+  @media (max-width: 1200px) {
     .testimonials--body .prevBtn,
     .testimonials--body .nextBtn {
       display: none !important;
@@ -235,12 +233,12 @@
         width: 100%;
     }
     .review--content h1{
-        font-size: 1.2rem;
+        font-size: 1.0rem;
         width: 100%; /* Increase width for better text wrapping */
     }
 
     .review--content h4{
-        font-size: 1.2rem;
+        font-size: 1.0rem;
         width: 100%; /* Increase width for better text wrapping */
     }
   }
@@ -284,7 +282,7 @@
   }
   .review--content{
       border-radius: 20px;
-      min-height: 330px;
+      min-height: 350px;
       padding: 5px 5px; /* Reduce horizontal padding */
   }
   .review--content p{
