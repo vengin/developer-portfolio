@@ -7,6 +7,7 @@ export const projectsData = [
     additional_tags: ['FPGA', 'Firmware', 'Microprocessor', 'Microcontroller', 'Git', 'Embedded C', 'C', 'UART', 'JTAG', 'Schematics', 'DisplayPort', 'USB', 'Ethernet', 'PCI', 'HDMI', 'Micro SD', 'SPI', 'I2C', 'UART', 'IoT', 'TCP/IP', 'Linux', 'PetaLinux', 'Ubuntu', 'Docker', 'Microsoft Office', 'Markdown','Silicon Labs', 'Visual Studio'],
     demo: 'https://github.com/vengin/portfolio/blob/main/2024-/KRIA%20Evaluation%20Kit%20(ECT-KRIA-EVK)/README.md',
     image: 'https://ectron.com/wp-content/uploads/2024/05/ECT-KRIA-EVK.png',
+    image: 'https://raw.githubusercontent.com/vengin/portfolio/main/2024-/KRIA%20Evaluation%20Kit%20(ECT-KRIA-EVK)/00ECT-KRIA-EVK%20Product.png',
     imgWidth: '100%',
     imgHeight: '60%'
   },
@@ -17,7 +18,7 @@ export const projectsData = [
     tags: ['Embedded C', 'IAR', 'DSP', 'Firmware', 'ARM Cortex', 'HART', 'Python', 'Assembler'],
     additional_tags: ['Microprocessor', 'Microcontroller', 'Git', 'Schematics', 'UART', 'JTAG', 'SPI', 'TCP/IP', 'C', 'TCL', 'Microsoft Office', 'Markdown', 'Micro SD', 'Visual Studio', 'IAR embedded workbench', 'Digital Signal Processing'],
     demo: 'https://github.com/vengin/portfolio/blob/main/2024-/Embedded%20Machine%20Monitor%20(ECT-EMM)/README.md',
-    image: 'https://ectron.com/wp-content/uploads/2024/05/EMM-Transparent.png',
+    image: 'https://raw.githubusercontent.com/vengin/portfolio/main/2024-/Embedded%20Machine%20Monitor%20(ECT-EMM)/00ECT-EMM%20Product.png',
     imgWidth: '100%',
     imgHeight: '80%'
   },
