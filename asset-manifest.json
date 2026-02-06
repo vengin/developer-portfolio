@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/developer-portfolio/static/css/main.3f50eb72.css",
-    "main.js": "/developer-portfolio/static/js/main.7637463b.js",
+    "main.css": "/developer-portfolio/static/css/main.d886ec8a.css",
+    "main.js": "/developer-portfolio/static/js/main.eee91054.js",
     "static/js/453.1cc257ae.chunk.js": "/developer-portfolio/static/js/453.1cc257ae.chunk.js",
     "static/media/placeholder.png": "/developer-portfolio/static/media/placeholder.3fcbbdcd05f3e458d129.png",
     "static/media/expOrange.svg": "/developer-portfolio/static/media/expOrange.c3e9732086bcc521548240f2f8db0dcf.svg",
@@ -12,7 +12,7 @@
     "static/media/expPink.svg": "/developer-portfolio/static/media/expPink.ac1de145943281e48101635d936e07a1.svg",
     "static/media/expPurple.svg": "/developer-portfolio/static/media/expPurple.c054e7936866e05307edbf7a6d27ddde.svg",
     "static/media/expYellow.svg": "/developer-portfolio/static/media/expYellow.cff6e7009ac8cce0c8806daff98c4c87.svg",
-    "static/media/Anton_Makarevich_Lead_FPGA_Embedded_Developer.pdf": "/developer-portfolio/static/media/Anton_Makarevich_Lead_FPGA_Embedded_Developer.033e135e9d663809a97a.pdf",
+    "static/media/Anton_Makarevich_Lead_FPGA_Embedded_Developer.pdf": "/developer-portfolio/static/media/Anton_Makarevich_Lead_FPGA_Embedded_Developer.6d882391b4b5f56f9148.pdf",
     "static/media/profileImg.jpg": "/developer-portfolio/static/media/profileImg.d5a61b76d38fb54e9221.jpg",
     "static/media/protocols.jpg": "/developer-portfolio/static/media/protocols.b658e5fd7fcad0d0bb00.jpg",
     "static/media/BestermindRegular.ttf": "/developer-portfolio/static/media/BestermindRegular.e58a192233afb30a6a59.ttf",
@@ -31,6 +31,7 @@
     "static/media/contactsYellow.svg": "/developer-portfolio/static/media/contactsYellow.d8c261aa8262ac245caa2fee7361b816.svg",
     "static/media/Sergey Ostromukhov.jpg": "/developer-portfolio/static/media/Sergey Ostromukhov.efa6d92e426cc7478f18.jpg",
     "static/media/firmware.jpg": "/developer-portfolio/static/media/firmware.fa909e626f2c96816cb4.jpg",
+    "static/media/jesd204.jpg": "/developer-portfolio/static/media/jesd204.6deb5713973e93576cf6.jpg",
     "static/media/pinkTheme-girl.svg": "/developer-portfolio/static/media/pinkTheme-girl.154b10ae75d0a3c82f82ad14de085891.svg",
     "static/media/purpleTheme-girl.svg": "/developer-portfolio/static/media/purpleTheme-girl.593f901e9495f526074efef0203b9545.svg",
     "static/media/yellowTheme-girl.svg": "/developer-portfolio/static/media/yellowTheme-girl.a7ec3ad5e259b7948bb65e64de43c930.svg",
@@ -98,12 +99,12 @@
     "static/media/expImgBlack.svg": "/developer-portfolio/static/media/expImgBlack.01d2dd8e2004913d9adab99741556a78.svg",
     "static/media/expImgWhite.svg": "/developer-portfolio/static/media/expImgWhite.b9923db466bf4544f6942bc67c5b4a7b.svg",
     "static/media/html.svg": "/developer-portfolio/static/media/html.75bdf0b057c088503944680032ea6347.svg",
-    "main.3f50eb72.css.map": "/developer-portfolio/static/css/main.3f50eb72.css.map",
-    "main.7637463b.js.map": "/developer-portfolio/static/js/main.7637463b.js.map",
+    "main.d886ec8a.css.map": "/developer-portfolio/static/css/main.d886ec8a.css.map",
+    "main.eee91054.js.map": "/developer-portfolio/static/js/main.eee91054.js.map",
     "453.1cc257ae.chunk.js.map": "/developer-portfolio/static/js/453.1cc257ae.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3f50eb72.css",
-    "static/js/main.7637463b.js"
+    "static/css/main.d886ec8a.css",
+    "static/js/main.eee91054.js"
   ]
 }
