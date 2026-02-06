@@ -23,9 +23,11 @@ import ni from '../assets/svg/skills/ni.png'
 import soc from '../assets/svg/skills/soc.gif'
 import zynq from '../assets/svg/skills/zynq.jpg'
 import zynqmp from '../assets/svg/skills/zynqmp.jpg'
+import versal from '../assets/svg/skills/versal.jpg'
 import usb from '../assets/svg/skills/USB.png'
 import ethernet from '../assets/svg/skills/ethernet.png'
 import pci from '../assets/svg/skills/PCI.png'
+import jesd204 from '../assets/svg/skills/jesd204.jpg'
 import microsd from '../assets/svg/skills/microsd.jpg'
 import hdmi from '../assets/svg/skills/HDMI.png'
 import ddr from '../assets/svg/skills/ddr.png'
@@ -197,6 +199,10 @@ export const skillsImage = (skill) => {
     case 'zynq ultrascale+ fpga':
     case 'zynq ultrascale+ mpsoc fpga':
       return zynqmp;
+    case 'versal':
+    case 'versal acap':
+    case 'versal adaptive socs':
+      return versal;
     case 'pynq':
       return pynq;
     case 'arduino':
@@ -213,6 +219,8 @@ export const skillsImage = (skill) => {
       return ddr;
     case 'pci':
       return pci;
+    case 'jesd204':
+      return jesd204;
     case 'micro sd':
       return microsd;
     case 'spi':
